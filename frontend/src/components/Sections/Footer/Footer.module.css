@@ -1,0 +1,196 @@
+.footer {
+    position: absolute;
+    height: 500px;
+    width:1470px;
+       
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    overflow: 'hidden';
+    margin-top: 200px;
+    background-image: url('../../../assets/maldives.jpeg');    
+  }
+  .bg{
+    opacity: 0.4;
+    position: absolute;
+    width: 100%;
+  }
+  
+  .footer-background {
+ 
+    padding: 20px;
+    border-radius: 10px;
+    
+
+
+  }
+  .footer-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 540px;
+  width:1510px;
+  opacity: 0.9;
+  background-color: rgba(0, 0, 0, 0.7); 
+}
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: relative;
+  z-index: 1;
+
+
+  }
+  .footer-logo{
+    position: relative;
+  }
+  .policyText{
+    padding-top:20px;
+    background-color:  rgb(34, 65, 119);
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    width: 1420px;
+    height: 35px;
+    position: relative;
+    z-index: 1;
+    margin-top: 93px;
+
+
+  }
+  .logo {
+    width: 200px;
+    height: 70px;
+  }
+  
+  .footer-column {
+    margin-top: 100px;
+    color: white;
+  }
+  .des{
+    width:100%;
+    position: absolute;
+    color:white;
+
+  }
+  
+  h4 {
+    
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+
+  }
+  
+  ul li {
+
+    margin-bottom: 8px;
+  }
+  li{
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  .links:hover {
+    color: gray;
+  } 
+  .links{
+    color: #fff;
+    text-decoration: none;
+
+  }
+  
+  .social-icons {
+    display: flex;
+    font-size: 24px;
+    gap: 1rem;
+    margin-top: 10px;
+  }
+  .fb:hover {
+    color: rgb(34, 65, 119);
+    border-radius: 20px;
+  }
+  .twitter:hover{
+    color: rgb(34, 65, 119);
+    border-radius: 20px;
+
+  }
+  .insta:hover{
+    color: rgb(34, 65, 119);
+    border-radius: 20px;
+  }
+.google:hover{
+  color: rgb(34, 65, 119);
+    border-radius: 20px;
+}
+  
+.contactUs{
+  margin-top: 20px;
+
+}
+  .social-icons svg {
+    margin-right: 10px;
+  }
+  .subscribe {
+    background-color: rgb(34, 65, 119);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 50%;
+    border-radius: 20px;
+    bottom:250px;
+    position: absolute;
+
+  }
+  
+
+  
+.subscribe__container h4 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--white);
+  text-align: center;
+}
+
+.subscribe__container .form {
+  width: 70%;
+  max-width: 900px;
+  margin-inline: auto;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+.subscribe__container input {
+  width: 70%;
+  padding: 0 2rem;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+}
+.subscribe-btn{
+  background-color: rgb(7, 123, 162);
+  width:150px;
+  height: 40px;
+  border-radius: 15px;
+  border: 0;
+  color:white;
+
+}
+.subscribe-btn:hover{
+  background-color: rgb(3, 63, 82);
+  
+
+}

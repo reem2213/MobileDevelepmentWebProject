@@ -1,0 +1,95 @@
+.divv {
+  padding: 2rem;
+  margin-left: 150px;
+  margin-top: 450px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  position: absolute;
+}
+.bg {
+  width: 100%;
+  height: 700px;
+}
+.pic {
+  width: 800px;
+  height: 400px;
+}
+.get-in-touch {
+  text-align: left;
+  color: white;
+}
+.faqSection{
+  display: flex;
+}
+.formm {
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.title2 {
+  margin-top: 340px;
+  padding-left: 500px;
+  position: absolute;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+.title {
+  margin-top: 270px;
+  padding-left: 200px;
+  position: absolute;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+}
+.image {
+  color: black;
+  width: 99%;
+  height: 99vh;
+  opacity: 0.7;
+  margin-top: 48px;
+
+  position: absolute;
+}
+
+h1 {
+  text-align: left;
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+.faqWord{
+  text-align: end;
+  margin-right: 580px;
+  color: #062961;
+  margin-bottom: 20px;
+}
+
+.input {
+  max-width: 200px;
+  outline: none;
+  border: none;
+  font-size: 0.9rem;
+}
+
+.submit-button {
+  width: 150px;
+  background-color: #179adb;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #062961;
+}
+

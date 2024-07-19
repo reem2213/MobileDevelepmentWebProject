@@ -1,0 +1,59 @@
+.wrapper{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: rgb(203, 202, 202);
+    width: 800px; */
+    background-image: url('../../assets/earth-logo.png');
+    border-radius: 20px;
+
+
+}
+.accordion{
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.question{
+    font-family: "Poppins", sans-serif;
+        font-size: 18px;
+
+    color:white;
+
+}
+
+.item{
+    background-color:rgb(3, 166, 216);
+    box-shadow: inset;
+    margin-bottom: 5px;
+    padding: 5px 20px;
+    border-radius: 40px;
+    
+}
+.titlee{
+    color:  white;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+.content{
+    color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+    font-family: "Poppins", sans-serif;
+
+}
+.show{
+    color: white;
+
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1,0,1,0);
+    font-family: "Poppins", sans-serif;
+
+}

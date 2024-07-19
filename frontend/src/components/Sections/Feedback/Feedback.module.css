@@ -1,0 +1,49 @@
+.client__grid {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.client__card {
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  width: 300px;
+}
+.star {
+  width: 20px;
+  height: 20px;
+}
+.ratings {
+  margin-left: 180px;
+  display: flex;
+
+}
+.clientImg {
+    position: absolute;
+  max-width: 60px;
+  border-radius: 100%;
+}
+
+.paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: rgb(134, 134, 134);
+}
+.position {
+  font-family: Arial, Helvetica, sans-serif;
+margin-left: 70px;
+  color: rgb(134, 134, 134);
+}
+.name {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 70px;
+
+  color: black;
+}
+
+.client__card:hover {
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}

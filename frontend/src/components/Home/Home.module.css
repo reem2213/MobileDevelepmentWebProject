@@ -1,0 +1,170 @@
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x:hidden;
+
+}
+
+
+.bg {
+  width: 100%;
+  height: 100vh;
+}
+
+.image {
+  color: black;
+  width: 1500px;
+  height: 100vh;
+  opacity: 0.7;
+  position: absolute;
+  margin-top: 48px;
+}
+.logo {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 150px;
+  height: 50px;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  transition: 1s ease;
+  background-size: cover;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #4c99af;
+}
+
+.title {
+  margin-top: 340px;
+  padding-left: 400px;
+  position: absolute;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+.title2 {
+  margin-top: 270px;
+  padding-left: 200px;
+  position: absolute;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+}
+.book-now {
+  margin-top: 400px;
+  margin-left: 700px;
+  border-radius: 30px;
+  height: 50px;
+  width: 110px;
+  color: white;
+  font-size: 15px;
+  background-color: #2d5d90;
+  position: absolute;
+  border: none;
+}
+.book-now:hover {
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px white solid;
+}
+.popular{
+  margin-top: 200px;
+}
+
+.phone {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  margin-top: 510px;
+  margin-left: 15px;
+}
+
+.destinations {
+  display: flex;
+  gap: 350px;
+
+ }
+ .feedbacks {
+  display: flex;
+  gap: 10px;
+  width: 50%;
+  margin-left: 200px;
+
+
+ }
+ .sellers{
+  display: flex;
+  gap: 10px;
+
+ }
+ .seller{
+  width: 70%;
+  margin-left: 230px;
+ }
+ .trendings{
+  margin-left: 230px;
+  display: flex;
+  gap: 30px;
+
+ }
+
+
+
+
+.section-subtitle {
+  color: #4c99af;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 50px;
+}
+.sectionTitle {
+  color: rgb(3, 60, 76);
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.sectionTrending{
+  color: rgb(3, 60, 76);
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-top: 70px;
+
+}
+.sectionSeller{
+  color: rgb(3, 60, 76);
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+
+}
+.seller{
+  margin-top: 600px;
+}
+.sectionFeedback{
+  color: rgb(3, 60, 76);
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+
+}
+.feedback{
+  margin-top: 300px;
+
+}
+
+
+
+.p {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(101, 101, 101);
+  width: 65%;
+  margin-left: 300px;
+}

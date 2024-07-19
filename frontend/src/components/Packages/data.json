@@ -1,0 +1,42 @@
+{
+    "Packages": [
+    {
+      "image": "packege-1.jpg",
+      "title":"Experience The Great Holiday On Beach",
+      "text":"Experience the great holiday on Malaysia's stunning beaches, where pristine sands meet crystal-clear waters, creating the perfect backdrop for relaxation and water-based adventures..",
+      "time": "9D/8N",
+      "pax": "pax:10",
+      
+      "country":"Maldives",
+      "reviews":"(33 reviews)",
+      "price":"550$",
+      "span":"/ per person"
+
+    },
+    {
+      "image":"norway.png",
+
+        "title":"Summer Holiday to the exolotan river",
+      "text":"Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque,cras, aspernatur.",
+      "time": "7D/6N",
+      "pax": "pax:8",
+      "country":"Norway",
+      "reviews":"(25 reviews)",
+      "price":"820$",
+      "span":"/ per person"
+
+    },
+    {
+      "image":"malaysia.jpeg",
+
+        "title":"The Floating Mosque in Melaka, Malaysia",
+      "text":"Malaysia is a Southeast Asian country known for its diverse cultural heritage, blending Malay, Chinese, Indian, and indigenous influences..",
+      "time": "10D/9N",
+      "pax": "pax:5",
+      "country":"Malaysia",
+      "reviews":"(42 reviews)",
+      "price":"610$",
+      "span":"/ per person"
+
+    }
+]}

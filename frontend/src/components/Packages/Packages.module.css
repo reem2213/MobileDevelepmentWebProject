@@ -1,0 +1,500 @@
+ .divv {
+    padding: 2rem;
+    margin-left: 150px;
+    margin-top: 450px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    position: absolute;
+  }
+  .bg {
+    width: 100%;
+    height: 700px;
+  }
+  .pic {
+    width: 800px;
+    height: 400px;
+  }
+
+  .star {
+    width: 20px;
+    height: 20px;
+  }
+  .card-ratings {
+    margin-left: 180px;
+    display: flex;
+    margin-top: 100px;
+  
+  }
+  
+  .title2 {
+    margin-top: 340px;
+    padding-left: 400px;
+    position: absolute;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+  }
+  .title {
+    margin-top: 270px;
+    padding-left: 200px;
+    position: absolute;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+  }
+  .image {
+    color: black;
+    width: 99%;
+    height: 99vh;
+    margin-top: 48px;
+
+    opacity: 0.7;
+    position: absolute;
+  }
+  .like{
+position: absolute;
+    padding-top: 60px;
+    margin-left: 350px;
+  }
+  .likesCounts{
+    position: absolute;
+    padding-top: 60px;
+    margin-left: 410px;
+    color: white;
+
+  }
+  .like2{
+    position: absolute;
+        padding-top: 60px;
+        margin-left: 650px;
+      }
+      .likesCounts2{
+        position: absolute;
+        padding-top: 60px;
+        margin-left: 710px;
+        color: black;
+    
+      }
+      .like3{
+        position: absolute;
+            padding-top: 60px;
+            margin-left: 1050px;
+          }
+          .likesCounts3{
+            position: absolute;
+            padding-top: 60px;
+            margin-left: 1110px;
+            color: white;
+        
+          }
+          .like4{
+            position: absolute;
+                padding-top: 400px;
+                margin-left: 450px;
+              }
+              .likesCounts4{
+                position: absolute;
+                padding-top: 400px;
+                margin-left: 500px;
+                color: white;
+            
+              }   
+              
+              .like5{
+                position: absolute;
+                    padding-top: 400px;
+                    margin-left: 950px;
+                  }
+                  .likesCounts5{
+                    position: absolute;
+                    padding-top: 400px;
+                    margin-left: 1010px;
+                    color: white;
+                
+                  }   
+  h1 {
+    text-align: left;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+  }
+  .faqWord{
+    text-align: end;
+    margin-right: 580px;
+    color: #062961;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    max-width: 200px;
+    outline: none;
+    border: none;
+    font-size: 0.9rem;
+  }
+  
+  .submit-button {
+    width: 150px;
+    background-color: #179adb;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #062961;
+  }
+  
+ 
+:root {
+  
+    --united-nations-blue: hsl(214, 56%, 58%);
+    --bright-navy-blue: hsl(214, 57%, 51%);
+    --spanish-gray: hsl(0, 0%, 60%);
+    --black-coral: hsl(225, 8%, 42%);
+    --oxford-blue: hsl(208, 97%, 12%);
+    --yale-blue: hsl(214, 72%, 33%);
+    --blue-ncs: hsl(197, 100%, 36%);
+    --gunmetal: hsl(206, 34%, 20%);
+    --gainsboro: hsl(0, 0%, 88%);
+    --cultured: hsl(0, 0%, 98%);
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 0%);
+    --onyx: hsl(0, 0%, 25%);
+    --jet: hsl(0, 0%, 20%);
+
+    --ff-poppins: "Poppins", sans-serif;
+    --ff-montserrat: "Montserrat", sans-serif;
+  
+    --fs-1: calc(20px + 3.5vw);
+    --fs-2: calc(18px + 1.6vw);
+    --fs-3: calc(16px + 0.45vw);
+    --fs-4: 15px;
+    --fs-5: 14px;
+    --fs-6: 13px;
+    --fs-7: 12px;
+    --fs-8: 11px;
+  
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+    --fw-800: 800;
+ 
+  
+    --transition: 0.25s ease-in-out;
+  
+    --section-padding: 60px;
+  
+  
+    --radius-15: 15px;
+    --radius-25: 25px;
+  
+  }
+
+  
+  .book-button {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;;
+    border-radius: 100px;
+    padding: var(--padding, 8px 18px);
+    border:  1px white solid;
+    transition: var(--transition);
+    background-color:transparent; 
+  }  
+  .book-button:is(:hover, :focus) { background: hsla(225, 77%, 25%, 0.1); }
+
+
+  .section-subtitle {
+    color: hsl(214, 57%, 51%);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family:"Montserrat", sans-serif;
+  }
+  .photos-gallery{
+    color: hsl(214, 57%, 51%);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family:"Montserrat", sans-serif;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 200px;
+  }
+  .loc{
+    width: 30px;
+    height: 30px;
+  }
+  .sectionPackages{
+    color: rgb(3, 60, 76);
+  font-size:40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-top: 70px;
+ }
+ .sectionGallery{
+  color: rgb(3, 60, 76);
+  font-size:40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-top: 70px;
+margin-left: 300px;
+ }
+
+  
+  .card-text {
+    color: var(--black-coral);
+    font-size: var(--fs-5);
+  }
+  
+
+  
+  
+  .package-list { margin-bottom: 40px; }
+  
+  .package-list > li:not(:last-child) { margin-bottom: 30px;  }
+  
+  .package-card {
+    background: var(--cultured);
+    overflow: hidden;
+    border-radius: 15px;
+    width: 1200px;
+  }
+  
+  .package-card .card-banner { height: 250px; }
+  
+  .package-card .card-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .package-card .card-content { padding: 30px 20px; }
+  
+  .package-card .card-title { margin-bottom: 15px; }
+  
+  .package-card .card-text {
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .card-meta-list {
+    background: var(--white);
+    max-width: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    box-shadow: 0 0 5px hsla(0, 0%, 0%, 0.15);
+    border-radius: 50px;
+  }
+  
+  .card-meta-item { position: relative; }
+  
+  .card-meta-item:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 4px;
+    right: -1px;
+    bottom: 4px;
+    width: 1px;
+    background: hsla(0, 0%, 0%, 0.3);
+  }
+  
+  .meta-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding-inline: 9px;
+    color: var(--black-coral);
+    font-size: var(--fs-8);
+  }
+  
+  .meta-box > ion-icon {
+    color: var(--bright-navy-blue);
+    font-size: 13px;
+  }
+  
+  .package-card .card-price {
+    background: var(--united-nations-blue);
+    color: var(--white);
+    padding: 25px 20px;
+    text-align: center;
+  }
+  
+  .package-card .card-price .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px 15px;
+    margin-bottom: 10px;
+  }
+  
+  .package-card .card-price .reviews { font-size: var(--fs-5); }
+  
+  .package-card .card-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    font-size: 14px;
+  }
+
+  .package{
+    margin-left: 150px;
+  }
+  
+  .package-card .card-rating ion-icon:last-child { color: hsl(0, 0%, 80%); }
+  
+  .package-card .price {
+    font-size: var(--fs-2);
+    font-family: var(--ff-montserrat);
+    font-weight: var(--fw-800);
+    margin-bottom: 20px;
+  }
+  
+  .package-card .price span {
+    font-size: var(--fs-7);
+    font-weight: initial;
+  }
+  
+  .package .btn { margin-inline: auto; }
+  
+  
+  
+  
+ 
+  .gallery { padding-block: var(--section-padding); }
+  
+  .gallery-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 75%;
+    margin-left: 270px;
+    height: 60%;
+  }
+  
+  .gallery-image {
+    width: 100%;
+    height: 100%;
+    border-radius: var(--radius-15);
+    overflow: hidden;
+  }
+  
+  .gallery-item:nth-child(3) { grid-area: 1 / 2 / 3 / 3; }
+  
+  .gallery-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } 
+
+  
+  @media (min-width: 580px) {
+  
+
+    .btn {
+      --fs-5: 16px;
+      --padding: 12px 30px;
+    }
+  
+    section:not(.cta) :is(.section-subtitle, .section-title, .section-text) {
+      text-align: center;
+    }
+  
+    .section-text { margin-bottom: 40px; }
+  
+    .card-text { --fs-5: 15px; }
+  
+  }
+
+  
+  @media (min-width: 768px) {
+ 
+    :root {
+ 
+      --fs-5: 15px;
+  
+    }
+  
+ 
+  
+    .section-text {
+      max-width: 60ch;
+      margin-inline: auto;
+    }
+
+  
+    .social-list { gap: 10px; }
+  
+
+    .package-list { margin-bottom: 50px; }
+  
+    .package-list > li:not(:last-child) { margin-bottom: 40px; }
+  
+    .package-card {
+      display: grid;
+      grid-template-columns: 1.3fr 1.5fr 1fr;
+    }
+  
+    .package-card .card-banner { height: 100%; }
+  
+    .package-card .card-content { padding: 40px; }
+  
+    .package-card .card-price {
+      display: grid;
+      place-content: center;
+    }
+  
+    .package-card .card-price .wrapper { margin-bottom: 15px; }
+
+  
+    .gallery { padding-bottom: calc(var(--section-padding * 2)); }
+  
+    .gallery-list {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+  
+    .gallery-image { border-radius: var(--radius-25); }
+  
+  
+}
+  
+  @media (min-width: 992px) {
+  
+    .container { max-width: 1050px; }
+  
+
+  
+  
+ 
+    .meta-box { --fs-8: 13px; }
+  
+    .meta-box > ion-icon { font-size: 15px; }
+  
+  
+  
+  
+  }
+  
+
+  
+  @media (min-width: 1200px) {
+
+    :root {
+  
+      --section-padding: 100px;
+  
+    }
+  
+ 
+  
+    .container { max-width: 1180px; }
+  
+  } 
